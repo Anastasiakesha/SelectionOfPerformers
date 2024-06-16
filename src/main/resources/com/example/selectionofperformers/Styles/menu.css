@@ -1,0 +1,32 @@
+.menu_container{
+-fx-background-color:#CCCCFF;
+ font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+.menu_container Label{
+-fx-fill: #ECF39E;
+-fx-text-fill:#660066;
+-fx-font-size: 15px;
+}
+
+.menu_btn_container{
+-fx-alignment: top_center;
+-fx-spacing:15;
+}
+
+.menu_btn_container Button{
+-fx-background-color:#660066;
+-fx-text-fill:#FFFFFF;
+-fx-pref-width:200;
+-fx-pref-height:20;
+-fx-font-size: 14px;
+}
+
+
+#main_quit{
+-fx-background-color:#FFFFFF;
+-fx-text-fill:#000000;
+-fx-pref-width:200;
+-fx-pref-height:20;
+-fx-font-size: 14px;
+}

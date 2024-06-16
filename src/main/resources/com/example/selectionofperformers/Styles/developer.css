@@ -1,0 +1,42 @@
+.developer_container{
+-fx-background-color:#FFFFFF;
+}
+
+.developer_container Label{
+-fx-fill: #ECF39E;
+-fx-text-fill:#660066;
+-fx-font-size: 12px;
+}
+
+.developer_btn_container{
+-fx-alignment: top_center;
+-fx-spacing:15;
+}
+
+.developer_btn_container Button{
+-fx-background-color:#660066;
+-fx-text-fill:#FFFFFF;
+-fx-pref-width:200;
+-fx-pref-height:30;
+-fx-font-size: 16px;
+}
+
+.table_container{
+-fx-background-color:#CCCCFF;
+}
+
+.top_container{
+-fx-fill: #ECF39E;
+-fx-font-weight:bold;
+-fx-text-fill:#660066;
+-fx-font-size: 14px;
+}
+
+.top_container Button{
+-fx-fill: #ECF39E;
+-fx-font-weight:bold;
+-fx-text-fill:#660066;
+-fx-font-size: 14px;
+}
+
+

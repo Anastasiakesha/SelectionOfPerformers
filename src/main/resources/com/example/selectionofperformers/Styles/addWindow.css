@@ -1,0 +1,17 @@
+.add_container{
+-fx-background-color:#CCCCFF;
+}
+.add_container Label{
+-fx-font-size: 12px;
+-fx-fill: #000000;
+-fx-font-weight:400;
+-fx-font-weight:bold;
+}
+.add_container Button{
+-fx-background-color:#660066;
+-fx-text-fill:#FFFFFF;
+-fx-font-size: 12px;
+}
+.add_container TextField{
+-fx-background-color:#FFFFFF;
+}

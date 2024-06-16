@@ -1,0 +1,15 @@
+.delete_container{
+-fx-background-color:#CCCCFF;
+}
+.delete_container Label{
+-fx-font-size: 12px;
+-fx-fill: #000000;
+-fx-font-weight:400;
+-fx-font-weight:bold;
+}
+.delete_container Button{
+-fx-background-color:#660066;
+-fx-text-fill:#FFFFFF;
+-fx-font-size: 12px;
+}
+

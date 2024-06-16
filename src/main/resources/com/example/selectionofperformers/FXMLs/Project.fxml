@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1300.0" styleClass="project_container" stylesheets="@../Styles/project.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Controllers.ProjectController">
+   <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="422.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/search.png" />
+      </image>
+   </ImageView>
+    <VBox layoutX="398.0" layoutY="57.0" prefHeight="550.0" prefWidth="150.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Label fx:id="tools_lbl_project" prefWidth="94.0" styleClass="top_container" text="Инструменты" />
+        <Line endX="100.0" startX="-100.0" />
+        <VBox prefHeight="200.0" prefWidth="100.0" styleClass="project_btn_container">
+            <Button fx:id="add_btn_project" mnemonicParsing="false" text="Добавить" />
+        </VBox>
+    </VBox>
+    <HBox layoutX="349.0" layoutY="33.0" prefHeight="30.0" prefWidth="122.0" styleClass="top_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1178.0" AnchorPane.topAnchor="0.0">
+        <Button fx:id="back_btn_project" mnemonicParsing="false" prefHeight="29.0" prefWidth="130.0" text="Назад" />
+    </HBox>
+    <ScrollPane prefHeight="300.0" prefWidth="425.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="25.0">
+        <TableView fx:id="projectTable" prefHeight="525.0" prefWidth="1100.0" styleClass="table_container">
+            <columns>
+                <TableColumn fx:id="developerName_col_project" prefWidth="147.33331310749054" text="Имя разработчика" />
+                <TableColumn fx:id="developerEmail_col_project" prefWidth="133.33328247070312" text="Email разработчика" />
+                <TableColumn fx:id="developerPhone_col_project" minWidth="0.0" prefWidth="150.6666259765625" text="Телефон разработчика" />
+                <TableColumn fx:id="developerRating_col_project" prefWidth="72.0" text="Рейтинг" />
+                <TableColumn fx:id="projectName_col_project" prefWidth="118.6666259765625" text="Название проекта" />
+                <TableColumn fx:id="projectStatus_col_project" prefWidth="100.00006103515625" text="Статус проекта" />
+                <TableColumn fx:id="startDate_col_project" prefWidth="81.99993896484375" text="Дата начала" />
+                <TableColumn fx:id="endDate_col_project" minWidth="0.0" prefWidth="110.0" text="Дата завершения" />
+                <TableColumn fx:id="reviewRating_col_project" prefWidth="59.33331298828125" text="Оценка" />
+                <TableColumn fx:id="comment_col_project" prefWidth="117.9998779296875" text="Отзыв" />
+            </columns>
+        </TableView>
+    </ScrollPane>
+   <TextField fx:id="projectSearch_fld" layoutX="122.0" layoutY="1.0" prefHeight="25.0" prefWidth="300.0" promptText="Найти" AnchorPane.topAnchor="0.0" />
+   <Button fx:id="projectSearch_btn" layoutX="422.0" layoutY="2.0" mnemonicParsing="false" opacity="0.0" AnchorPane.topAnchor="0.0" />
+   <Label fx:id="projectResultSearch_lbl" layoutX="444.0" layoutY="6.0" />
+</AnchorPane>

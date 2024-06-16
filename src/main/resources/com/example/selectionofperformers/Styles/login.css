@@ -1,0 +1,59 @@
+.login_container{
+-fx-background-color:#EEEEEE;
+}
+/* Контейнер для логотипа */
+.login_logo_container{
+-fx-background-color:#660066;
+-fx-alignment: center;
+}
+
+.login_logo_container Text{
+-fx-font-size: 15px;
+-fx-fill: #FFFFFF;
+}
+
+.login_logo_container Icon {
+-fx-fill: #ECF39E;
+-fx-size: 20px;
+}
+
+
+.login_form_container{
+-fx-spacing:15;
+-fx_alignment: top_left;
+}
+
+
+.login_form_container Label{
+-fx-fill: ECF39E;
+-fx-font-weight:bold;
+-fx-text-fill:#660066;
+-fx-font-size: 20px;
+}
+
+.input_field{
+-fx-background-color:#FFFFFF;
+-fx-pref-height: 35;
+-fx-font-size:15px;
+}
+
+.login_form_container Button{
+-fx-background-color:#660066;
+-fx-text-fill:#FFFFFF;
+-fx-pref-width:350;
+-fx-pref-height:30;
+-fx-font-size: 15px;
+}
+
+.login_form_container Button:hover{
+-fx-cursor:hand;
+}
+
+.error_lbl{
+-fx-text-fill:#FF0000;
+
+}
+
+#main_text{
+-fx-font-weight:400;
+}

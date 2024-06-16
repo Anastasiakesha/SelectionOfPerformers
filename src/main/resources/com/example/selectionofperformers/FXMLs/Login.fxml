@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="login_container" stylesheets="@../Styles/login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Controllers.LoginController">
+   <VBox prefHeight="400.0" prefWidth="200.0" styleClass="login_logo_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo.gif" />
+         </image></ImageView>
+
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_logo_container" text="DevelopersSelection" textAlignment="CENTER">
+         <font>
+            <Font name="Bookman Old Style" size="10.0" />
+         </font>
+      </Text>
+   </VBox>
+   <VBox layoutX="274.0" layoutY="27.0" prefHeight="380.0" prefWidth="350.0" styleClass="login_form_container" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <Label id="main_text" text="Войдите в систему:" />
+      <Label fx:id="login_lbl" text="Логин">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="login_fld" styleClass="input_field" />
+      <Label fx:id="password_lbl" text="Пароль" />
+      <TextField fx:id="password_fld" styleClass="input_field" />
+      <Button fx:id="login_btn" mnemonicParsing="false" text="Войти" />
+      <Label fx:id="error_lbl" styleClass="error_lbl"  />
+   </VBox>
+</AnchorPane>
