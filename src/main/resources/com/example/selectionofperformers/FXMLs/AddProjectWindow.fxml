@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="429.0" prefWidth="350.0" styleClass="add_container" stylesheets="@../Styles/addWindow.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Controllers.AddProjectWindowController">
+<AnchorPane prefHeight="429.0" prefWidth="350.0" styleClass="add_container" stylesheets="@../Styles/addWindow.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Presentation.Controllers.AddProjectWindowController">
    <Label layoutX="118.0" layoutY="25.0" text="Заполните поля:">
       <font>
          <Font name="System Bold" size="14.0" />

@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1300.0" styleClass="project_container" stylesheets="@../Styles/project.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Controllers.ProjectController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1300.0" styleClass="project_container" stylesheets="@../Styles/project.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Presentation.Controllers.ProjectController">
    <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="422.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
       <image>
          <Image url="@../Images/search.png" />

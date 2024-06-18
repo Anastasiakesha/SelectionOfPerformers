@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 
 <?import javafx.scene.control.ComboBox?>
-<AnchorPane prefHeight="406.0" prefWidth="357.0" styleClass="add_container" stylesheets="@../Styles/addWindow.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Controllers.AddDeveloperWindowController">
+<AnchorPane prefHeight="406.0" prefWidth="357.0" styleClass="add_container" stylesheets="@../Styles/addWindow.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Presentation.Controllers.AddDeveloperWindowController">
    <Label layoutX="132.0" layoutY="26.0" text="Заполните поля:">
       <font>
          <Font name="System Bold" size="14.0" />

@@ -1,4 +1,4 @@
-package com.example.selectionofperformers.Presentation.TableModel;
+package com.example.selectionofperformers.Presentation.Model;
 
 import com.example.selectionofperformers.Presentation.Views.ViewFactory;
 

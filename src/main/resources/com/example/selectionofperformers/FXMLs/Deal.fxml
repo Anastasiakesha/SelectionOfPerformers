@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane id="dealView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1300.0" styleClass="deal_container" stylesheets="@../Styles/deal.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Controllers.DealController">
+<AnchorPane id="dealView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1300.0" styleClass="deal_container" stylesheets="@../Styles/deal.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.selectionofperformers.Presentation.Controllers.DealController">
    <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="430.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
       <image>
          <Image url="@../Images/search.png" />
